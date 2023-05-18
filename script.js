@@ -6,10 +6,13 @@ const person = {
 };
 
 let team=players();
-for(int i=0;i<players.length;i++){
-	let team1= players[i];
+let team1=[];
+for(let i=0;i<players.length;i++){
+	team1[i]= players[i];
 }
-let cap1= person;
+let cap1= {};
+cap1.name=person.name;
+cap1.age=person.age;
 
 window.players = players;
 window.person = person;

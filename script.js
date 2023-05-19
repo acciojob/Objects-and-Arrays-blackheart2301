@@ -6,8 +6,8 @@ const person = {
 };
 
 let team=players;
-let team1=Array.from(players);
-let cap1= person();
+const team1=Array.from(players);
+var cap1= {...person};
 
 
 window.players = players;

@@ -6,13 +6,9 @@ const person = {
 };
 
 let team=players;
-let team1=players.concat();
-for(let i=0;i<players.length;i++){
-	team1[i]= players[i];
-}
+let team1=Array.from(players);
 let cap1= person();
-cap1.name=person.name;
-cap1.age=person.age;
+
 
 window.players = players;
 window.person = person;
